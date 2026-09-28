@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/splitcode",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Split config/code key checks for twelve-factor services.",
+  "bin": {
+    "splitcode": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/splitcode.git"
+  },
+  "homepage": "https://theworker02.github.io/splitcode/",
+  "keywords": [
+    "split",
+    "code",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
